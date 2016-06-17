@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "authors": [
+    "petun <petun911@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
