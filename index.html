@@ -43,7 +43,7 @@
                 <li ng-repeat="item in items">
                     <div class="checkbox level-{{item.level}}">
                         <label>
-                            <input type="checkbox" ng-model="c" ng-change="setState(item, c)"> {{item.name}}
+                            <input type="checkbox" ng-checked="item.checked" ng-model="c" ng-change="setState(item, c)"> {{item.name}}
                         </label>
                     </div>
                 </li>
